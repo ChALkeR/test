@@ -4,8 +4,10 @@ function run(f) {
   f();
 }
 
-run(main);
+if (true) {
+  run(main);
 
-function main() {
-  console.log('Yay!');
+  function main() {
+    console.log('Yay!');
+  }
 }
